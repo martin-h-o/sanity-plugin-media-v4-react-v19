@@ -11,5 +11,8 @@ export default defineConfig({
       'ae-internal-missing-underscore': 'off',
       'ae-missing-release-tag': 'off'
     }
-  }
+  },
+
+  // Mark react-dropzone as external to avoid bundling issues
+  external: ['react-dropzone']
 })
