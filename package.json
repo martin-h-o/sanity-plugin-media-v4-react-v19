@@ -49,7 +49,7 @@
     "link-watch": "plugin-kit link-watch",
     "lint": "eslint .",
     "prepare": "husky install",
-    "prepublishOnly": "npm run build",
+    "prepublishOnly": "test -d dist || npm run build",
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
