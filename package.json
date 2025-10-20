@@ -48,7 +48,6 @@
     "format": "prettier --write --cache --ignore-unknown .",
     "link-watch": "plugin-kit link-watch",
     "lint": "eslint .",
-    "prepare": "test -d .git && husky install || true",
     "watch": "pkg-utils watch --strict"
   },
   "dependencies": {
